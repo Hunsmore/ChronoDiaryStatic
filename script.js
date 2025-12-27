@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const elementsWithLang = document.querySelectorAll('[data-en][data-zh]');
     
     // Set initial language
-    let currentLang = 'en';
+    let currentLang = 'zh';
     
     // Language data
     const translations = {
@@ -283,6 +283,6 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
     
-    // Initialize with English
-    updateLanguage('en');
+    // Initialize with Chinese
+    updateLanguage('zh');
 });
